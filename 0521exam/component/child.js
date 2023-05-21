@@ -12,6 +12,8 @@ const ChildComponent = ({ onDataChange }) => {
     onDataChange(newData);
   };
 
+  //onPress : 버튼 누르면 handleButtonPress 함수 실행
+
   return (
     <>
       <Button title="Update Data" onPress={handleButtonPress} />
